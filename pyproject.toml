@@ -7,7 +7,9 @@ readme = "README.md"
 packages = [{include = "wechaty_demo_py"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
+wechaty = "^0.10.7"
+wechaty-puppet = "^0.4.23"
 
 
 [build-system]
